@@ -4,8 +4,6 @@ function Introduction () {
 
     return (
         <div>
-            <h1>Introduction</h1>
-            <Link to='/about_me'> Sobre mí</Link>
         </div>
     )
 }

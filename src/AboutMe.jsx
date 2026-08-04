@@ -4,8 +4,6 @@ function AboutMe() {
 
   return (
     <div>
-        <h1>About Me</h1>
-        <Link to='/'>Información</Link>
     </div>
   )
 }

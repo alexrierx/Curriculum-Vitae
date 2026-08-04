@@ -1,0 +1,35 @@
+.header {
+    background-color: #90AFC5;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 0;
+}
+
+.sections {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #2a3132;
+    font-size: 1.5rem;
+    transition: text-decoration 5s ease-in-out;
+}
+
+.header > .header-link {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-link:hover {
+    color: #336b87;
+}
+
+.header-link.active {
+    font-weight: bold;
+    color: #336b87;
+}

@@ -7,8 +7,8 @@ import AboutMe from './AboutMe.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path='/' element={<Introduction />} />
         <Route path='/about_me' element={<AboutMe />} />
